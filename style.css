@@ -268,6 +268,33 @@ ul {
     }
 
     .project {
-        display: block;
+        display: block ;
     }
 }
+
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .gallery {
+    display: block;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    
+    }
+
+    .project {
+        display: block ;
+    }
+}
+
+
